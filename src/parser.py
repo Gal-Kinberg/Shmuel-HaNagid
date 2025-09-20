@@ -10,11 +10,11 @@ alphasnums = ppu.Hebrew.alphas + nums + "'?!\":,;.ֵַּׄׄ"
 # Define the grammar for a Hebrew word
 hebrew_word = pp.Word(alphasnums)
 bold_word = pp.Suppress('*') + hebrew_word + pp.Suppress('*')
-hebrew_sentence = pp.OneOrMore(hebrew_word | "..." | "[!]").setResultsName("regular")
-italic_sentence = '_' + hebrew_sentence.setResultsName("italic") + '_'
-strike_sentence = '~' + hebrew_sentence.setResultsName("strike") + '~'
+hebrew_sentence = pp.OneOrMore(hebrew_word | "..." | "[!]")
+italic_sentence = pp.Suppress('_') + hebrew_sentence + pp.Suppress('_')
+strike_sentence = pp.Suppress('~') + hebrew_sentence + pp.Suppress('~')
 
-complex_sentence = pp.OneOrMore(italic_sentence | strike_sentence | hebrew_sentence)
+complex_sentence = pp.OneOrMore(pp.Group(italic_sentence.setResultsName("italic") | strike_sentence.setResultsName("strike") | hebrew_sentence.setResultsName("regular")).setResultsName("subsentences", listAllMatches=True))
 pp_variant_apparatus = pp.Group(complex_sentence).setResultsName("text") + pp.Group(pp.OneOrMore(bold_word)).setResultsName("sources")
 pp_lemma_apparatus = pp.Group(hebrew_sentence).setResultsName("lemma") + pp.Suppress(']') + pp.OneOrMore(pp.Group(pp_variant_apparatus)).setResultsName("variants")
 pp_line_apparatus = pp.Word(nums).setResultsName("line") + pp.delimitedList(pp.Group(pp_lemma_apparatus), delim=pp.Suppress('/')).setResultsName("lemmata")
@@ -46,7 +46,8 @@ for line_apparatus in parsed['lines']:
     for lemma_apparatus in line_apparatus['lemmata']:
         lemma = lemma_apparatus['lemma']
         for variant in lemma_apparatus['variants']:
-            variant_text = variant['text']
+            variant_text = [' '.join(subsentence) for subsentence in variant['text']] # an array of strings
+            variant_text_formats = [next(subsentence.keys()) for subsentence in variant['text']] # an array of 'italic', 'strike', 'regular'
             manuscripts = variant['sources']
             print(f"Line: {line}  |  Correction from: {' '.join(lemma)}, to: {' '.join(variant_text)}, in manuscripts: {manuscripts}")
             for manuscript in manuscripts:
@@ -54,6 +55,8 @@ for line_apparatus in parsed['lines']:
                     'line': line,
                     'lemma': ' '.join(lemma),
                     'text': ' '.join(variant_text),
+                    'subsentences': variant_text,
+                    'formats': variant_text_formats,
                     'manuscript': manuscript
                 })
 
@@ -77,49 +80,54 @@ added_chars = [char for char in char_diff if char.startswith('+ ')]
 
 removed_chars = [char for char in char_diff if char.startswith('- ')]
 
-
+raise SystemExit
 test = variant_list[0]
 
 correction_list = []
-for test in variant_list:
-    match = re.search(r'_.*\bחסר\b.*_', test['text'])
-    if match:
+for variant in variant_list:
+    # match = re.search(r'_.*\bחסר\b.*_', variant['text'])
+    missing = False
+    for indice, variant_text in enumerate(variant['subsentences']):
+        if variant['formats'][indice] == 'italics' and re.search(r'.*\bחסר\b.*', variant_text):
+            missing = True
+            break
+    if missing:
         correction = MissingApparatus(
             song_name='אלוה עז',
-            line=test['line'],
-            lemma=test['lemma'],
+            line=variant['line'],
+            lemma=variant['lemma'],
             source='ש',
-            target=test['manuscript']
+            target=variant['manuscript']
         )
-    elif "~" in test['text']:
-        # parsed_strike_through = re.search(r'~(.*?)~', test)
+    elif "~" in variant['text']:
+        # parsed_strike_through = re.search(r'~(.*?)~', variant)
         # parsed_strike_through_text = parsed_strike_through.group(1).strip()
-        parsed_strike_through = complex_sentence.parseString(test['text'])
+        parsed_strike_through = complex_sentence.parseString(variant['text'])
         deleted = ' '.join(parsed_strike_through['strike'])
         corrected = ' '.join(parsed_strike_through['regular'])
 
-        comment = extract_comment_raw(test['text'])
+        comment = extract_comment_raw(variant['text'])
         if deleted != corrected:
             correction = DeletionApparatus(deleted=deleted,
                                            corrected=corrected,
                                            song_name='אלוה עז',
-                                           line=test['line'],
-                                           lemma=test['lemma'],
+                                           line=variant['line'],
+                                           lemma=variant['lemma'],
                                            source='ש',
-                                           target=test['manuscript'],
+                                           target=variant['manuscript'],
                                            comment=comment)
     else:
-        comment = extract_comment_raw(test['text'])
-        parsed_text = complex_sentence.parseString(test['text'])
+        comment = extract_comment_raw(variant['text'])
+        parsed_text = complex_sentence.parseString(variant['text'])
         if 'regular' not in parsed_text:
             # just a comment without correction
             # comment = extract_comment(parsed_text)
             correction = Apparatus(
                 song_name='אלוה עז',
-                line=test['line'],
-                lemma=test['lemma'],
+                line=variant['line'],
+                lemma=variant['lemma'],
                 source='ש',
-                target=test['manuscript'],
+                target=variant['manuscript'],
                 comment=comment
             )
 
@@ -131,21 +139,21 @@ for test in variant_list:
             correction_text = correction_text.strip("!?,:\'\"[](); ")
             # print(f"after strip: {correction_text}")
 
-            if len(test['lemma'].split()) != len(correction_text.split()):
+            if len(variant['lemma'].split()) != len(correction_text.split()):
                 # comment = extract_comment(parsed_text)
                 correction = WordSwapApparatus(
                     text=' '.join(parsed_text['regular']),
                     song_name='אלוה עז',
-                    line=test['line'],
-                    lemma=test['lemma'],
+                    line=variant['line'],
+                    lemma=variant['lemma'],
                     source='ש',
-                    target=test['manuscript'],
+                    target=variant['manuscript'],
                     comment=comment
                 )
             else:
                 ## compare letters
                 # check if first or last letters are אהוי, and if so remove them for the comparison
-                lemma_to_compare = test['lemma']
+                lemma_to_compare = variant['lemma']
                 correction_to_compare = correction_text
 
                 if correction_to_compare[0] in 'אהוי':
@@ -174,17 +182,17 @@ for test in variant_list:
                     correction = FullSpellingApparatus(
                         text=correction_text,
                         song_name='אלוה עז',
-                        line=test['line'],
-                        lemma=test['lemma'],
+                        line=variant['line'],
+                        lemma=variant['lemma'],
                         source='ש',
-                        target=test['manuscript'],
+                        target=variant['manuscript'],
                         comment=comment
                     )
                 else:
                     # check word lengths
                     same_lengths = True
                     for i in range(len(correction_text.split())):
-                        if len(correction_text.split()[i]) != len(test['lemma'].split()[i]):
+                        if len(correction_text.split()[i]) != len(variant['lemma'].split()[i]):
                             same_lengths = False
                             break
 
@@ -193,32 +201,32 @@ for test in variant_list:
                         correction = WordSwapApparatus(
                             text=correction_text,
                             song_name='אלוה עז',
-                            line=test['line'],
-                            lemma=test['lemma'],
+                            line=variant['line'],
+                            lemma=variant['lemma'],
                             source='ש',
-                            target=test['manuscript'],
+                            target=variant['manuscript'],
                             comment=comment
                         )
 
                     else:
                         # diff characters again, now with full text
-                        char_diff = list(difflib.ndiff(test['lemma'], correction_text))
+                        char_diff = list(difflib.ndiff(variant['lemma'], correction_text))
                         added_chars = [char[2:] for char in char_diff if char.startswith('+ ')]
                         removed_chars = [char[2:] for char in char_diff if char.startswith('- ')]
 
-                        removal_index = test['lemma'].index(removed_chars[0])
+                        removal_index = variant['lemma'].index(removed_chars[0])
                         insertion_index = correction_text.index(added_chars[0])
 
                         # check if only word order changed
-                        if set(test['lemma'].split()) == set(correction_text.split()):
+                        if set(variant['lemma'].split()) == set(correction_text.split()):
                             # comment = extract_comment(parsed_text)
                             correction = OrderSwapApparatus(
                                 text=correction_text,
                                 song_name='אלוה עז',
-                                line=test['line'],
-                                lemma=test['lemma'],
+                                line=variant['line'],
+                                lemma=variant['lemma'],
                                 source='ש',
-                                target=test['manuscript'],
+                                target=variant['manuscript'],
                                 comment=comment
                             )
                         # check if only one letter changed, at the same place
@@ -230,10 +238,10 @@ for test in variant_list:
                                 old_letter=removed_chars[0],
                                 new_letter=added_chars[0],
                                 song_name='אלוה עז',
-                                line=test['line'],
-                                lemma=test['lemma'],
+                                line=variant['line'],
+                                lemma=variant['lemma'],
                                 source='ש',
-                                target=test['manuscript'],
+                                target=variant['manuscript'],
                                 comment=comment
                             )
                         else:
@@ -242,10 +250,10 @@ for test in variant_list:
                             correction = WordSwapApparatus(
                                 text=correction_text,
                                 song_name='אלוה עז',
-                                line=test['line'],
-                                lemma=test['lemma'],
+                                line=variant['line'],
+                                lemma=variant['lemma'],
                                 source='ש',
-                                target=test['manuscript'],
+                                target=variant['manuscript'],
                                 comment=comment
                             )
 
