@@ -38,6 +38,27 @@ test = joined_paragraphs[-6]
 # test = 'וקל ... ושפי] ואמר יכבדהו האל אח"כ מספר על הנסיונות ומשבח לאל ית\' על אשר שמר והציל והצליח ורפא וקראה שירה *ש* / _ללא כותרת_ *קמ*   1 בעין] משן *קמ* / עצלתים] נצלה כי *קמ* / ושפלות] שיפלות *קמ* / משיר] _חסר_ *קמ*   2 לבד] ליבו *קמ* / מנלוז] מכלח *קמ* / דרכים] דרכיים *קמ*   3 ואלם] ואילם *קמ* / כמותי] צויתי *קמ*  / וחך] וחיך *ד1* ואיך *קמ* / כבד שפה] יכבד עתה *קמ*   4 אחר שנותו עשה] שנותי עשו *ד1* / יצוה] וצוה *קמ* / ואבתר] ואבת! *ד1* / ולשתים] ולשתיים *קמ*   5 למאות ורבואות] למאור היבואות *קמ* / לאחד] ~ו~לאחד *ש*   6 כמישאל] כמשַאֵל *קמ* / ומוטבע] ומטבע *ד1*   7 נפשי] נפשו *ד1* *קמ* / בצירים] וצירים *ד1* *קמ*   8 לשוני] לשני *ד1* / תף] תיף *קמ* / כנור] כינור *קמ*   9 כהכון] כהיכון *קמ* / מיושר] מישר *ד1*   10 כמזלג] במזלג *ד1*   11 כמו ליל] ~כמאזנים~כמו ליל *ש* כמו לולי, _כ"ף תוקנה מבי"ת_ *קמ* / בטלה] בטלא *ד1*   12 בבאי] בבואי *ד1* *קמ* / נחשתים] נחושתיים *קמ*   13 עשותו] עשתו *ד1* / במאה מן] כמיא המן! *קמ* / עברו] עבר *ד1*   14 ולכדי] ולבדי *ד1* / צריכים] צרי..ים *קמ* / דלתים] דלתיים *קמ*   15 ושוב ... באפים] _חסר_ *ש* _נוסח הפנים לפי_ *ד1* / באפים] באפיים *קמ*   16 כיעקב] ביעקב *ד1* / במחנים] במחניים *קמ*   17 נאנשים] לאנשים *ד1* באנשים *קמ* / במצרים] במצריים *קמ*   18 יך] יד *ד1* / עלי] _חסר_ *קמ* / כאויב בלכדו] הוא גם לכדו *קמ* / מערכת] _מתחת למ"ם קו נטוי לסימון סוף הדלת_ *ק* / אגפים] אגפיים *קמ*   19 כחי] כוחי *ק* *קמ* / ופעמים] ופעמיים *קמ*   20 ואראה] והנה *ש* _נוסח הפנים לפי_ *ד1* *ק* *קמ* / בכירים] ככירים *ש* _נוסח הפנים לפי_ *ד1* *ק* בכיריים *קמ*   21 ואעטף] ואעטוף *ד1* *ק* *קמ* / כרעים] כרעיים *קמ*   22 כפוף] בכוף *קמ* / כאגמון] כאגמן *קמ* / חלצים] חלציים *קמ*   23 ואשכב] ואשאב *ד1* / בלי] ~ומ~ בלי *קמ* / וממכאוב] ומכאוב *קמ* / ומחומם] ומחומם, _ושמא יש לקרוא:_ מחומי *ד1* / עצמי] עצמי~ם~ *ש* / בין] על *ד1* / שפתים] שפתיים *קמ*   24 ביהץ] ביחץ *ד1* *קמ* / ואגלים] ואגליים *קמ*   25 בבקר] בבוקר *קמ* / ויחשך] אחשך *קמ* / וערבים] וערביים *קמ*   26 ולבי] וליבי *קמ* / בבין] בבן *קמ* / זעה לזעה] זיעה לזיעה *ק* / בינות] בינית *קמ* / יאורים] יש יאורים *קמ* / נהדפים] נהדרפי! *ק*   27 חרדים] חרידים *ק* *קמ* / ויאמרו] ואמרו *ק* ויאמר *קמ* / חיו] היו *ד1* *ק* *קמ* / בכזה] כבזה *ק* / שבועים] שבועיים *קמ*   28 מלאים] מליאים *ק* / מנקש] מנשק *ד1* מנדש *קמ* / לברכים] לברכיים *קמ*   29 ויש גועות] וכשגועות *ד1* ויש טעות *קמ* / לשדים] לשדיים *קמ*   30 כבר בא] כבד פה *קמ* / יחזוני] _בסוף השורה נכתב_ \'יׄחׄ\' _ונוסחתנו הועתקה מחדש בתחילת השורה הבאה_ *ד1* יחליף *קמ* / בכפלים] ככפלים *ק* בכפליים *קמ*   31 לי] לו *קמ* / ממלא] ממלוא *ק* ממליא *קמ* / ועינים] וענים *ק* ועניים *קמ*   32 יראים] יריאים *ק* / רואה] ראה *ד1* / בפניו] בפנים *ד1* בפכו *קמ*   33 שנתים] בשנים *ד1* שנתיים *קמ*   34 חלשי] חולשי *קמ* / זרתים] כזרתים *ד1* *ק* כזרתיים *קמ*   35 אהלי] אהולי! *קמ* / והחלש] והחולש *ד1* *קמ* / לרגלים] לרגליים *קמ*   37 ברע שלש] אשר באו *ש* _נוסח הפנים לפי_ *ד1*   38 צד ... צד] צר ... צר *ש* _נוסח הפנים לפי_ *ד1* / ונגע] בנגע *ד1*   39 ותעב] יתעב *ש* _נוסח הפנים לפי_ *ד1* / והרוס] _בסוף השורה נכתב_ \'וׄהׄכׄ\' _ונוסחתנו הועתקה מחדש בשורה הבאה_ *ד1*   40 והדר] והדור, _והמעתיק ניסה לתקן כך שרי"ש תתלכד עם הוא"ו_ *ד1* / בקרנים] וקרנים *ד1*   41 אגודת] אגודות *ד1*   44 וקומה] _בכה"י הועתקה המילה פעמים ברצף_ *ד1*   45 עברים] ובי עברים *ד1*   47 כהסב] בהסב *ד1* / וריחים] ורחים *ד1*    48 יריכים] ירחים *ד1*   49 ושם] _שי"ן תוקנה מאות אחרת_ *ש* / וחושף] וחשך *ד1*   50 טפחים] כטפחים *ד1*   52 נשאוהו] נשואוהו *ד1*   57 נפתה] נפתח *ד1* / כגומר בדבלים] כגמר לרכלים *ד1*   60 לעובר] לעבר *ד1*   62 לעריץ] לערוץ *ד1*   63 שאולה] שואלה *ד1* / ככפים] בכפים *ד1*   64 במילים] במלים *ד1*   67 ואשח] ואשא *ש* _נוסח הפנים לפי_ *ד1*   68 ורב] ורוב *ד1* / שקלתים] שקולים *ד1* / זכרתיו] זכרתים *ד1*   69 מחסורם] _רי"ש תוקנה מאות אחרת_ *ש* מחסולם, _והמעתיק סימן את דגל הלמ"ד למחיקה כדי להגיע לנוסחתנו_ *ד1*'
 # test = '1 בעין] משן *קמ* / עצלתים] נצלה כי *קמ* / ושפלות] שיפלות *קמ* / משיר] _חסר_ *קמ*   2 לבד] ליבו *קמ* / מנלוז] מכלח *קמ* / דרכים] דרכיים *קמ*   3 ואלם] ואילם *קמ* / כמותי] צויתי *קמ*  / וחך] וחיך *ד1* ואיך *קמ* / כבד שפה] יכבד עתה *קמ*   4 אחר שנותו עשה] שנותי עשו *ד1* / יצוה] וצוה *קמ* / ואבתר] ואבת! *ד1* / ולשתים] ולשתיים *קמ*   5 למאות ורבואות] למאור היבואות *קמ* / לאחד] ~ו~לאחד *ש*   6 כמישאל] כמשַאֵל *קמ* / ומוטבע] ומטבע *ד1*   7 נפשי] נפשו *ד1* *קמ* / בצירים] וצירים *ד1* *קמ*   8 לשוני] לשני *ד1* / תף] תיף *קמ* / כנור] כינור *קמ*   9 כהכון] כהיכון *קמ* / מיושר] מישר *ד1*   10 כמזלג] במזלג *ד1*   11 כמו ליל] ~כמאזנים~כמו ליל *ש* כמו לולי, _כ"ף תוקנה מבי"ת_ *קמ* / בטלה] בטלא *ד1*   12 בבאי] בבואי *ד1* *קמ* / נחשתים] נחושתיים *קמ*   13 עשותו] עשתו *ד1* / במאה מן] כמיא המן! *קמ* / עברו] עבר *ד1*   14 ולכדי] ולבדי *ד1* / צריכים] צרי..ים *קמ* / דלתים] דלתיים *קמ*   15 ושוב ... באפים] _חסר_ *ש* _נוסח הפנים לפי_ *ד1* / באפים] באפיים *קמ*   16 כיעקב] ביעקב *ד1* / במחנים] במחניים *קמ*   17 נאנשים] לאנשים *ד1* באנשים *קמ* / במצרים] במצריים *קמ*   18 יך] יד *ד1* / עלי] _חסר_ *קמ* / כאויב בלכדו] הוא גם לכדו *קמ* / מערכת] _מתחת למ"ם קו נטוי לסימון סוף הדלת_ *ק* / אגפים] אגפיים *קמ*   19 כחי] כוחי *ק* *קמ* / ופעמים] ופעמיים *קמ*   20 ואראה] והנה *ש* _נוסח הפנים לפי_ *ד1* *ק* *קמ* / בכירים] ככירים *ש* _נוסח הפנים לפי_ *ד1* *ק* בכיריים *קמ*   21 ואעטף] ואעטוף *ד1* *ק* *קמ* / כרעים] כרעיים *קמ*   22 כפוף] בכוף *קמ* / כאגמון] כאגמן *קמ* / חלצים] חלציים *קמ*   23 ואשכב] ואשאב *ד1* / בלי] ~ומ~ בלי *קמ* / וממכאוב] ומכאוב *קמ* / ומחומם] ומחומם, _ושמא יש לקרוא:_ מחומי *ד1* / עצמי] עצמי~ם~ *ש* / בין] על *ד1* / שפתים] שפתיים *קמ*   24 ביהץ] ביחץ *ד1* *קמ* / ואגלים] ואגליים *קמ*   25 בבקר] בבוקר *קמ* / ויחשך] אחשך *קמ* / וערבים] וערביים *קמ*   26 ולבי] וליבי *קמ* / בבין] בבן *קמ* / זעה לזעה] זיעה לזיעה *ק* / בינות] בינית *קמ* / יאורים] יש יאורים *קמ* / נהדפים] נהדרפי! *ק*   27 חרדים] חרידים *ק* *קמ* / ויאמרו] ואמרו *ק* ויאמר *קמ* / חיו] היו *ד1* *ק* *קמ* / בכזה] כבזה *ק* / שבועים] שבועיים *קמ*   28 מלאים] מליאים *ק* / מנקש] מנשק *ד1* מנדש *קמ* / לברכים] לברכיים *קמ*   29 ויש גועות] וכשגועות *ד1* ויש טעות *קמ* / לשדים] לשדיים *קמ*   30 כבר בא] כבד פה *קמ* / יחזוני] _בסוף השורה נכתב_ \'יׄחׄ\' _ונוסחתנו הועתקה מחדש בתחילת השורה הבאה_ *ד1* יחליף *קמ* / בכפלים] ככפלים *ק* בכפליים *קמ*   31 לי] לו *קמ* / ממלא] ממלוא *ק* ממליא *קמ* / ועינים] וענים *ק* ועניים *קמ*   32 יראים] יריאים *ק* / רואה] ראה *ד1* / בפניו] בפנים *ד1* בפכו *קמ*   33 שנתים] בשנים *ד1* שנתיים *קמ*   34 חלשי] חולשי *קמ* / זרתים] כזרתים *ד1* *ק* כזרתיים *קמ*   35 אהלי] אהולי! *קמ* / והחלש] והחולש *ד1* *קמ* / לרגלים] לרגליים *קמ*   37 ברע שלש] אשר באו *ש* _נוסח הפנים לפי_ *ד1*   38 צד ... צד] צר ... צר *ש* _נוסח הפנים לפי_ *ד1* / ונגע] בנגע *ד1*   39 ותעב] יתעב *ש* _נוסח הפנים לפי_ *ד1* / והרוס] _בסוף השורה נכתב_ \'וׄהׄכׄ\' _ונוסחתנו הועתקה מחדש בשורה הבאה_ *ד1*   40 והדר] והדור, _והמעתיק ניסה לתקן כך שרי"ש תתלכד עם הוא"ו_ *ד1* / בקרנים] וקרנים *ד1*   41 אגודת] אגודות *ד1*   44 וקומה] _בכה"י הועתקה המילה פעמים ברצף_ *ד1*   45 עברים] ובי עברים *ד1*   47 כהסב] בהסב *ד1* / וריחים] ורחים *ד1*    48 יריכים] ירחים *ד1*   49 ושם] _שי"ן תוקנה מאות אחרת_ *ש* / וחושף] וחשך *ד1*   50 טפחים] כטפחים *ד1*   52 נשאוהו] נשואוהו *ד1*   57 נפתה] נפתח *ד1* / כגומר בדבלים] כגמר לרכלים *ד1*   60 לעובר] לעבר *ד1*   62 לעריץ] לערוץ *ד1*   63 שאולה] שואלה *ד1* / ככפים] בכפים *ד1*   64 במילים] במלים *ד1*   67 ואשח] ואשא *ש* _נוסח הפנים לפי_ *ד1*   68 ורב] ורוב *ד1* / שקלתים] שקולים *ד1* / זכרתיו] זכרתים *ד1*   69 מחסורם] _רי"ש תוקנה מאות אחרת_ *ש* מחסולם, _והמעתיק סימן את דגל הלמ"ד למחיקה כדי להגיע לנוסחתנו_ *ד1*'
 
+def extract_ranges(text):
+    # 1. Extract the whole group after the phrase
+    match = re.search(r'(?<=נוסח הפנים לבתים\s)\d+(?:-\d+)?(?:\s*,\s*\d+(?:-\d+)?)*', text)
+    if not match:
+        return []
+
+    # 2. Split by commas into individual ranges
+    parts = [p.strip() for p in match.group().split(',')]
+
+    # 3. Expand ranges into full list of numbers
+    numbers = []
+    for part in parts:
+        if '-' in part:
+            start, end = map(int, part.split('-'))
+            numbers.extend(range(start, end + 1))
+        else:
+            numbers.append(int(part))
+
+    return numbers
+
+
 # Parse the test string
 for paragraph in joined_paragraphs[-1::-1]:
     print(paragraph)
@@ -48,7 +69,15 @@ for paragraph in joined_paragraphs[-1::-1]:
 # sources_split = re.split(r'\*[^\s]*\*', paragraph)
 sources_split = paragraph.split(r'*')
 sources_details = [(source, details) for source, details in zip(sources_split[1::2], sources_split[2::2])]
+source_to_line_dict = {}
+for source, details in sources_details:
+    if "נוסח הפנים לשיר" in details:
+        source_to_line_dict[source] = list(range(1, 501)) # assume all lines are of this source
+    elif "נוסח הפנים לבתים" in details:
+        line_numbers = extract_ranges(details) # list of integers
+        source_to_line_dict[source] = line_numbers
 
+line_to_source_dict = {line: source for source in source_to_line_dict for line in source_to_line_dict[source]}
 
 # Parse the test string
 for paragraph in joined_paragraphs[-1::-1]:
@@ -66,6 +95,13 @@ for line_apparatus in parsed['lines']:
     line = line_apparatus['line']
     for lemma_apparatus in line_apparatus['lemmata']:
         lemma = lemma_apparatus['lemma']
+        lemma_source = line_to_source_dict[int(line)]
+
+        # find if the lemma is from a different source
+        for variant in lemma_apparatus['variants']:
+            if "נוסח הפנים לפי" in ' '.join(variant['text']) or "הושלם לפי" in ' '.join(variant['text']):
+                lemma_source = "ש" if "ש" in variant['sources'] else variant['sources'][0]
+
         for variant in lemma_apparatus['variants']:
             variant_text = variant['text']
             manuscripts = variant['sources']
@@ -75,7 +111,8 @@ for line_apparatus in parsed['lines']:
                     'line': line,
                     'lemma': ' '.join(lemma),
                     'text': ' '.join(variant_text),
-                    'manuscript': manuscript
+                    'target': manuscript,
+                    'source': lemma_source
                 })
 
 def extract_comment(parsed_text):
@@ -106,11 +143,11 @@ for test in variant_list:
     match = re.search(r'_.*\bחסר\b.*_', test['text'])
     if match:
         correction = MissingApparatus(
-            song_name='אלוה עז',
-            line=test['line'],
+            song_name=filename,
+            line=int(test['line']),
             lemma=test['lemma'],
-            source='ש',
-            target=test['manuscript']
+            source=test['source'],
+            target=test['target']
         )
     elif "~" in test['text']:
         # parsed_strike_through = re.search(r'~(.*?)~', test)
@@ -123,11 +160,11 @@ for test in variant_list:
         if deleted != corrected:
             correction = DeletionApparatus(deleted=deleted,
                                            corrected=corrected,
-                                           song_name='אלוה עז',
-                                           line=test['line'],
+                                           song_name=filename,
+                                           line=int(test['line']),
                                            lemma=test['lemma'],
-                                           source='ש',
-                                           target=test['manuscript'],
+                                           source=test['source'],
+                                           target=test['target'],
                                            comment=comment)
     else:
         comment = extract_comment_raw(test['text'])
@@ -136,11 +173,11 @@ for test in variant_list:
             # just a comment without correction
             # comment = extract_comment(parsed_text)
             correction = Apparatus(
-                song_name='אלוה עז',
-                line=test['line'],
+                song_name=filename,
+                line=int(test['line']),
                 lemma=test['lemma'],
-                source='ש',
-                target=test['manuscript'],
+                source=test['source'],
+                target=test['target'],
                 comment=comment
             )
 
@@ -156,11 +193,11 @@ for test in variant_list:
                 # comment = extract_comment(parsed_text)
                 correction = WordSwapApparatus(
                     text=' '.join(parsed_text['regular']),
-                    song_name='אלוה עז',
-                    line=test['line'],
+                    song_name=filename,
+                    line=int(test['line']),
                     lemma=test['lemma'],
-                    source='ש',
-                    target=test['manuscript'],
+                    source=test['source'],
+                    target=test['target'],
                     comment=comment
                 )
             else:
@@ -194,11 +231,11 @@ for test in variant_list:
                     # comment = extract_comment(parsed_text)
                     correction = FullSpellingApparatus(
                         text=correction_text,
-                        song_name='אלוה עז',
-                        line=test['line'],
+                        song_name=filename,
+                        line=int(test['line']),
                         lemma=test['lemma'],
-                        source='ש',
-                        target=test['manuscript'],
+                        source=test['source'],
+                        target=test['target'],
                         comment=comment
                     )
                 else:
@@ -213,11 +250,11 @@ for test in variant_list:
                         # comment = extract_comment(parsed_text)
                         correction = WordSwapApparatus(
                             text=correction_text,
-                            song_name='אלוה עז',
-                            line=test['line'],
+                            song_name=filename,
+                            line=int(test['line']),
                             lemma=test['lemma'],
-                            source='ש',
-                            target=test['manuscript'],
+                            source=test['source'],
+                            target=test['target'],
                             comment=comment
                         )
 
@@ -235,11 +272,11 @@ for test in variant_list:
                             # comment = extract_comment(parsed_text)
                             correction = OrderSwapApparatus(
                                 text=correction_text,
-                                song_name='אלוה עז',
-                                line=test['line'],
+                                song_name=filename,
+                                line=int(test['line']),
                                 lemma=test['lemma'],
-                                source='ש',
-                                target=test['manuscript'],
+                                source=test['source'],
+                                target=test['target'],
                                 comment=comment
                             )
                         # check if only one letter changed, at the same place
@@ -250,11 +287,11 @@ for test in variant_list:
                                 text=correction_text,
                                 old_letter=removed_chars[0],
                                 new_letter=added_chars[0],
-                                song_name='אלוה עז',
-                                line=test['line'],
+                                song_name=filename,
+                                line=int(test['line']),
                                 lemma=test['lemma'],
-                                source='ש',
-                                target=test['manuscript'],
+                                source=test['source'],
+                                target=test['target'],
                                 comment=comment
                             )
                         else:
@@ -262,11 +299,11 @@ for test in variant_list:
                             # comment = extract_comment(parsed_text)
                             correction = WordSwapApparatus(
                                 text=correction_text,
-                                song_name='אלוה עז',
-                                line=test['line'],
+                                song_name=filename,
+                                line=int(test['line']),
                                 lemma=test['lemma'],
-                                source='ש',
-                                target=test['manuscript'],
+                                source=test['source'],
+                                target=test['target'],
                                 comment=comment
                             )
 
@@ -282,81 +319,81 @@ for appratype in set([_.type for _ in correction_list]):
 
 
 #
-shin_apperata = [correction for correction in correction_list if correction.target == 'ש' and correction.type != 'full_spelling']
-kuf_apperata = [correction for correction in correction_list if correction.target == 'ק' and correction.type != 'full_spelling']
-
-intersection = []
-for apperatus in kuf_apperata:
-    for kuf_apperatus in shin_apperata:
-        if apperatus.line == kuf_apperatus.line and apperatus.lemma == kuf_apperatus.lemma:
-            intersection.append((apperatus, kuf_apperatus))
-
-print("")
-print(f"Number of ש apperata (excluding full spelling): {len(shin_apperata)}")
-print(f"Number of ק apperata (excluding full spelling): {len(kuf_apperata)}")
-print(f"Number of intersections: {len(intersection)}")
-
-print("")
-# print type statistics in intersection
-shin_intersection = [s for s, k in intersection]
-for appratype in set([_.type for _ in shin_intersection]):
-    print(f"Number of {appratype}: {len([_ for _ in shin_intersection if _.type == appratype])} | Percentage of {appratype}: {len([_ for _ in shin_intersection if _.type == appratype]) / len(shin_intersection) * 100:.2f}%")
-
-print(len([_ for _ in shin_apperata if _.type == 'word_swap']))
-
-import matplotlib.pyplot as plt
-
-
-def plot_intersection_stats(total_list, intersection_list, output_dir='plots'):
-    """
-    Creates pie charts showing intersection statistics for each apparatus type.
-
-    Args:
-        total_list: List of all apparatus objects
-        intersection_list: List of tuples containing intersecting apparatus pairs
-        output_dir: Directory to save the plots (default: 'plots')
-    """
-    # Extract just the first element (ש apparatus) from each intersection tuple
-    intersection_apparatuses = [s for s, k in intersection_list]
-
-    # Get unique apparatus types
-    types = set(app.type for app in total_list)
-
-    # For each type, create a pie chart
-    for app_type in types:
-        # Get all apparatus of this type
-        total_of_type = [app for app in total_list if app.type == app_type]
-
-        # Get intersection apparatus of this type
-        intersection_of_type = [app for app in intersection_apparatuses if app.type == app_type]
-
-        # Calculate percentages
-        total_count = len(total_of_type)
-        intersection_count = len(intersection_of_type)
-        non_intersection_count = total_count - intersection_count
-
-        # Skip if no apparatus of this type
-        if total_count == 0:
-            continue
-
-        # Create data for pie chart
-        sizes = [intersection_count, non_intersection_count]
-        labels = ['In Intersection', 'Not in Intersection']
-        colors = ['#ff9999', '#66b3ff']
-
-        # Create pie chart
-        plt.figure(figsize=(10, 8))
-        plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%',
-                startangle=90)
-        plt.axis('equal')
-        plt.title(f'Intersection Statistics for {app_type}\nTotal Count: {total_count}')
-
-        # Save plot
-        # plt.savefig(f'{output_dir}/{app_type}_intersection.png')
-        plt.show()
-
-plot_intersection_stats(kuf_apperata, intersection)
-
-df = pd.DataFrame([correction.to_dict() for correction in correction_list if correction.type == 'word_swap'])
+# shin_apperata = [correction for correction in correction_list if correction.target == 'ש' and correction.type != 'full_spelling']
+# kuf_apperata = [correction for correction in correction_list if correction.target == 'ק' and correction.type != 'full_spelling']
+#
+# intersection = []
+# for apperatus in kuf_apperata:
+#     for kuf_apperatus in shin_apperata:
+#         if apperatus.line == kuf_apperatus.line and apperatus.lemma == kuf_apperatus.lemma:
+#             intersection.append((apperatus, kuf_apperatus))
+#
+# print("")
+# print(f"Number of ש apperata (excluding full spelling): {len(shin_apperata)}")
+# print(f"Number of ק apperata (excluding full spelling): {len(kuf_apperata)}")
+# print(f"Number of intersections: {len(intersection)}")
+#
+# print("")
+# # print type statistics in intersection
+# shin_intersection = [s for s, k in intersection]
+# for appratype in set([_.type for _ in shin_intersection]):
+#     print(f"Number of {appratype}: {len([_ for _ in shin_intersection if _.type == appratype])} | Percentage of {appratype}: {len([_ for _ in shin_intersection if _.type == appratype]) / len(shin_intersection) * 100:.2f}%")
+#
+# print(len([_ for _ in shin_apperata if _.type == 'word_swap']))
+#
+# import matplotlib.pyplot as plt
+#
+#
+# def plot_intersection_stats(total_list, intersection_list, output_dir='plots'):
+#     """
+#     Creates pie charts showing intersection statistics for each apparatus type.
+#
+#     Args:
+#         total_list: List of all apparatus objects
+#         intersection_list: List of tuples containing intersecting apparatus pairs
+#         output_dir: Directory to save the plots (default: 'plots')
+#     """
+#     # Extract just the first element (ש apparatus) from each intersection tuple
+#     intersection_apparatuses = [s for s, k in intersection_list]
+#
+#     # Get unique apparatus types
+#     types = set(app.type for app in total_list)
+#
+#     # For each type, create a pie chart
+#     for app_type in types:
+#         # Get all apparatus of this type
+#         total_of_type = [app for app in total_list if app.type == app_type]
+#
+#         # Get intersection apparatus of this type
+#         intersection_of_type = [app for app in intersection_apparatuses if app.type == app_type]
+#
+#         # Calculate percentages
+#         total_count = len(total_of_type)
+#         intersection_count = len(intersection_of_type)
+#         non_intersection_count = total_count - intersection_count
+#
+#         # Skip if no apparatus of this type
+#         if total_count == 0:
+#             continue
+#
+#         # Create data for pie chart
+#         sizes = [intersection_count, non_intersection_count]
+#         labels = ['In Intersection', 'Not in Intersection']
+#         colors = ['#ff9999', '#66b3ff']
+#
+#         # Create pie chart
+#         plt.figure(figsize=(10, 8))
+#         plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%',
+#                 startangle=90)
+#         plt.axis('equal')
+#         plt.title(f'Intersection Statistics for {app_type}\nTotal Count: {total_count}')
+#
+#         # Save plot
+#         # plt.savefig(f'{output_dir}/{app_type}_intersection.png')
+#         plt.show()
+#
+# plot_intersection_stats(kuf_apperata, intersection)
+#
+df = pd.DataFrame([correction.to_dict() for correction in correction_list])
 output_filename = "dataclass_export.xlsx"
 df.to_excel(output_filename, index=False)
